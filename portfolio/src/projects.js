@@ -1,9 +1,10 @@
+
 const projects = [
     {
         id: 1,
         name: "Reciplease",
         description: "Feeling Hungry? Reciplease is a simple and easy to use website containing all your favorite recipes. Reciplease includes, main dishes, appitizers, desserts, and your favorite drinks. Dig In!",
-        image: "../images/Reciplease.png",
+        image: "portfolio/src/components/images/Reciplease.png",
         live_link: "https://xyiorgyx.github.io/Reciplease/",
         githubLink: "https://github.com/xyiorgyx/Reciplease"
 

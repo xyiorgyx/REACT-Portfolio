@@ -6,8 +6,11 @@ import projects from "./projects";
 export default function App() {
   console.log(projects)
     return (
-      <div>
-        <Projectcards projects = {projects} />
+      <div className="flex flex-wrap">
+        
+        {projects.map(project => (<Projectcards key={project.id} project = {project} /> )) 
+        }
+        
       </div>
     );
   }
