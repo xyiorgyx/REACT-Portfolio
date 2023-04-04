@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/portfolio/static/js/main.82fad031.js",
+    "static/media/me.png": "/portfolio/static/media/me.3a7080ed957efb60d3b3.png",
+    "static/media/Reciplease.png": "/portfolio/static/media/Reciplease.f6246eb0f9f3096c617e.png",
+    "static/media/employee-tracker.png": "/portfolio/static/media/employee-tracker.76107a6a7a1730fd6966.png",
+    "static/media/daily-planner.png": "/portfolio/static/media/daily-planner.5e3dba60d55d02701c8c.png",
+    "static/media/noteTaker.png": "/portfolio/static/media/noteTaker.0d391f193f2b26bc7054.png",
+    "index.html": "/portfolio/index.html",
+    "main.82fad031.js.map": "/portfolio/static/js/main.82fad031.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.82fad031.js"
+  ]
+}
