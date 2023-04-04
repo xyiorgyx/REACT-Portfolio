@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/REACT-Portfolio/static/js/main.2c9ed2bd.js",
+    "static/media/me.png": "/REACT-Portfolio/static/media/me.3a7080ed957efb60d3b3.png",
+    "static/media/Reciplease.png": "/REACT-Portfolio/static/media/Reciplease.f6246eb0f9f3096c617e.png",
+    "static/media/employee-tracker.png": "/REACT-Portfolio/static/media/employee-tracker.76107a6a7a1730fd6966.png",
+    "static/media/daily-planner.png": "/REACT-Portfolio/static/media/daily-planner.5e3dba60d55d02701c8c.png",
+    "static/media/noteTaker.png": "/REACT-Portfolio/static/media/noteTaker.0d391f193f2b26bc7054.png",
+    "index.html": "/REACT-Portfolio/index.html",
+    "main.2c9ed2bd.js.map": "/REACT-Portfolio/static/js/main.2c9ed2bd.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.2c9ed2bd.js"
+  ]
+}
