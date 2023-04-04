@@ -1,12 +1,14 @@
 import React from "react";
 import Projectcards from "./components/projectpage"
-import Navigations from "./components/nav"
+import Navigations from "./components/nav.js"
+import Footer from './components/footer'
 
 export default function App() {
     return ( 
-     <div >
+     <div className = 'dark:bg-gray-700 min-h-screen'>
       <Navigations/>
-      <Projectcards/>      
+      <Projectcards/>  
+      <Footer/>    
       </div>
     );
   }
