@@ -13,7 +13,7 @@ export default function Home() {
         <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Yiorgos Bosnakis</h5>
         <span class="text-sm text-gray-500 dark:text-gray-400">Web Developer</span>
         <p className = 'text-white'>Born and raised in Long Island, New York.</p>
-        <p className = 'text-white'></p>
+        <p></p>
     </div>
 </div>
     

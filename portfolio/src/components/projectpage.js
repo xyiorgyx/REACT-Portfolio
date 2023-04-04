@@ -7,8 +7,8 @@ import dailyPlanner from './images/daily-planner.png'
 export default function Projectcards() {
 
     return (
-        <>
-            <div className=" flex flex-wrap w-full bg-transparent  mt-10">
+        <div className ='h-screen bg-gray-700'>
+            <div className="flex flex-wrap w-full">
                 <div className=" max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-20 my-5">
                     <a>
                         <img className="rounded-t-lg" src={reciplease} alt="" />
@@ -75,7 +75,7 @@ export default function Projectcards() {
                     
                 </div>
             </div>
-        </>
+            </div>
     )
 }
 

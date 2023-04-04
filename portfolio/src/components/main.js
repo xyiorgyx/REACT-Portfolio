@@ -6,7 +6,7 @@ import Footer from "./footer";
 import Navigations from "./nav";
 
 export default function Main() {
-  const [currentPage, setCurrentPage] = useState("home");
+  const [currentPage, setCurrentPage] = useState("projects");
   const renderPage = () => {
 
     if (currentPage === "home") {
