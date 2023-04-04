@@ -1,7 +1,6 @@
 import React from 'react';
 import github from './images/github.png'
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
+
 export default function Footer() {
   return (
     <footer class="inset-x-0 bottom-0 w-full fixed bg-white rounded-lg shadow dark:bg-gray-900">

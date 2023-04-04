@@ -7,16 +7,16 @@ import Navigations from "./nav";
 
 export default function Main() {
 
-  const [currentPage, setCurrentPage] = useState("home");
+  const [currentPage, setCurrentPage] = useState("Home");
   const renderPage = () => {
 
-    if (currentPage === "home") {
+    if (currentPage === "Home") {
       return <Home />;
     }
-    if (currentPage === "projects") {
+    if (currentPage === "Projectcards") {
       return <Projectcards />;
     }
-    if (currentPage === "contact") {
+    if (currentPage === "Contact") {
         return <Contact />;
       }
     return <Home/>;
