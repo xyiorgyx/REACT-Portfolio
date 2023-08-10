@@ -1,37 +1,5 @@
 import React from 'react';
-
-const Styles = {
-  Navheader: {
-    top: '3%',
-    left: '20%',
-    position: 'absolute',
-    width:'40%',
-    gap: '10px',
-  },
-
-  NavList: {
-    display: 'flex',
-    padding: '10px',
-    gap: '12%',
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-
-  NavButtons: {
-    color: '#FFFDF3',
-    fontFamily: 'Lexend Exa',
-    fontSize: '18px',
-    fontStyle: 'normal',
-    fontWeight: '400',
-    lineHeight: 'normal',
-    textDecoration: 'none', // Remove underline from normal state
-    transition: 'color 0.3s', // Smooth color transition
-   
-  },
-
-
-
-}
+import {Styles} from './components/styles/styleNavTabs'
 
 
 export default function NavTabs({ currentPage, handlePageChange }) {
