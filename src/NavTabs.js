@@ -4,8 +4,6 @@ import {Styles} from './components/styles/styleNavTabs'
 
 export default function NavTabs({ currentPage, handlePageChange }) {
   return (
-
-    <div style={Styles.Navheader}>
       <ul style={Styles.NavList} className="nav nav-tabs">
         <li style={Styles.NavButtons}
           className="navItem">
@@ -50,7 +48,6 @@ export default function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li>
       </ul>
-    </div>
   );
 }
 

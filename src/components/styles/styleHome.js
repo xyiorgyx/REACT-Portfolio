@@ -1,17 +1,9 @@
 import BackgroundImage from '../images/background.png'
 
 export const Styles = {
-  background: {
-    backgroundImage: `url(${BackgroundImage})`,
-    backgroundSize: 'contain',
-    height: '102vh',
-    width: '100vw',
-    position: 'fixed',
-    overflow: 'auto'
-  },
   Main: {
-    height: '90vh',
-    width: '100vw',
+    display:'flex',
+    flexDirection:'column'
   },
   brightCornerLight: {
     width: '25.25rem',
@@ -22,7 +14,7 @@ export const Styles = {
     filter: 'blur(100px)',
     position: 'absolute',
     left: '-7%',
-    top: '-8%'
+    top: '-8%',
   },
   brightTopLight: {
     width: '448px',
@@ -41,6 +33,7 @@ export const Styles = {
     height: '56.5625rem',
     flexShrink: '0',
     left: '57%',
+    top:"-4.5rem"
   },
   Name: {
     position: 'relative',
@@ -52,8 +45,8 @@ export const Styles = {
     lineHeight: '125%',
     width: '51.875rem;',
     color: 'var(--white, #FFFDF3)',
-    bottom: '50%',
-    left: '5%',
+    top: '33rem',
+    right: '35rem',
   },
   Welcome: {
     fontFamily: 'Lecend Exa',

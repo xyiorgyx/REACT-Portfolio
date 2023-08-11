@@ -5,6 +5,7 @@ import { Styles } from '../styles/styleHome'
 import Earth from '../images/Vector.png'
 import CodePic from '../images/coding_picture.png'
 import fourthDimension from '../images/interstellar_picture.png'
+
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 
@@ -12,11 +13,9 @@ import fourthDimension from '../images/interstellar_picture.png'
 export default function Home() {
   return (
     <div
-      className='background'
-      style={Styles.background}>
-
-      <NavTabs>
-      </NavTabs>
+    
+      className='Main'
+      style={Styles.Main}>
 
       <div className='Main' style={Styles.Main}>
         <div className='cornerLight'
@@ -78,7 +77,9 @@ export default function Home() {
           </p>
         </div>
       </div>
-    </div>
+    <div className='footer'>
 
+    </div>
+    </div>
   );
 }

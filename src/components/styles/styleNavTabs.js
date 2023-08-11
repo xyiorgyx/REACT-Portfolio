@@ -1,21 +1,16 @@
 export const Styles = {
-  Navheader: {
-    top: '3%',
-    left: '20%',
-    position: 'absolute',
-    width:'40%',
-    gap: '10px',
-  },
 
   NavList: {
     display: 'flex',
     padding: '10px',
-    gap: '12%',
-    justifyContent: 'center',
-    alignItems: 'center'
+    gap: '10%',
+    width: '40%',
+    justifyContent: "right",
+    margin:'1rem'
   },
 
   NavButtons: {
+    position:'relative',
     color: '#FFFDF3',
     fontFamily: 'Lexend Exa',
     fontSize: '18px',
