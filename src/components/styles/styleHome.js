@@ -14,8 +14,8 @@ export const Styles = {
     width: '100vw',
   },
   brightCornerLight: {
-    width: '404px',
-    height: '387px',
+    width: '25.25rem',
+    height: '24.1875rem',
     flexShrink: '0',
     borderRadius: '404px',
     background: '#5665EF',
@@ -37,69 +37,125 @@ export const Styles = {
   },
   selfiePicture: {
     position: 'relative',
-    marginLeft:'58%',
-    width: '696px',
-    height: '905px',
+    width: '43.5rem',
+    height: '56.5625rem',
     flexShrink: '0',
+    left: '57%',
   },
   Name: {
-    /* Desktop/H1 */
+    position: 'relative',
     display: 'inline-block',
     fontFamily: 'MuseoModerno',
     fontSize: '7.5rem',
     fontStyle: 'normal',
     fontWeight: '700',
     lineHeight: '125%',
-    margin: '0',
-    width: '40%',
+    width: '51.875rem;',
     color: 'var(--white, #FFFDF3)',
-    position: 'relative',
-    top: '-50%',
-    left: '7%',
-   
+    bottom: '50%',
+    left: '5%',
   },
   Welcome: {
     fontFamily: 'Lecend Exa',
     fontSize: '2.25rem',
-    fontWeight:'600',
-    fontStyle:'normal',
-    lineHeight:'125%',
+    fontWeight: '600',
+    fontStyle: 'normal',
+    lineHeight: '125%',
     color: '#FFFDF3',
     display: 'flex',
-    height:'8%',
+    height: '8%',
     width: '100%',
-    padding: '30px 10px',
     justifyContent: 'center',
     alignItems: 'center',
     gap: '10px',
     borderStyle: 'solid',
     borderWidth: '1px 0 1px 0',
   },
-  About:{
-    height: '100vh',
-    width: '100vw',
+  About: {
+    width: '100%',
     display: 'inline-flex',
+    flexDirection: 'row',
     alignItems: 'flex-start',
   },
-  EarthBox:{
-    position: 'relative',
+  CodingAboutBox: {
+    display: 'inline-flex',
+    flexDirection: 'column',
+    alignItems: 'flex-start',
+  },
+  EarthBox: {
     display: 'flex',
-    height:'100%',
     width: '51.875rem',
-    padding: '12.5rem 0rem',
+    padding: '12.5rem 0',
     justifyContent: 'center',
     alignItems: 'center',
+    gap: '0.625rem',
     alignSelf: 'stretch',
-    borderStyle: 'solid',
-    borderWidth: '1px 1px 1px 1px',
-    left:'2px'
+    borderRight: '2px solid var(--white, #FFFDF3)',
+    borderBottom: '2px solid var(--white, #FFFDF3)',
+    borderLeft: '2px solid var(--white, #FFFDF3)',
+    marginLeft: '5%'
   },
-
-  EarthPhoto:{
-    position: 'relative',
+  EarthPhoto: {
     width: '26.3125rem',
     height: '26.3125rem',
     flexShrink: '0',
   },
+  IntroductionBox: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'relative',
+    display: 'flex',
+    width: '60.625rem',
+    padding: '14rem ',
+    gap: '0.625rem',
+    flex: '1 0 0',
+  },
+  Introduction: {
+    position: 'relative',
+    display: 'flex',
+    width: '34.75rem',
+    flexShrink: '0',
+    color: 'var(--white, #FFFDF3)',
+    fontFamily: 'Lexend Exa',
+    fontSize: '1.25rem',
+    fontStyle: 'normal',
+    fontWeight: '400',
+    lineHeight: '120 %',
+  },
+  CodingPic: {
+    width: '60.625rem',
+    height: '16.1875',
+    flexShrink: '0',
+  },
+  Bottom: {
+    width: '100%',
+    display: 'inline-flex',
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+  },
+  FourthDimmension: {
+    display: 'flex'
+  },
+  MyWorkDiv: {
+    display: 'flex',
+    width: '78.25rem',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'flex-start',
+    gap: '0.625rem',
+    alignSelf: 'stretch',
+    borderBottom: '1px solid var(--white, #FFFDF3)',
 
-};
+  },
+  MyWork: {
+    color: 'var(--white, #FFFDF3)',
+  fontFamily: 'Lexend Giga',
+  fontSize: '1.25rem',
+  fontStyle: 'normal',
+  fontWeight: '400',
+  lineHeight: '1.5rem',
+  margin: '0 20rem'
+}
+
+
+}
