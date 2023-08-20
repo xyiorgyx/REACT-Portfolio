@@ -1,4 +1,10 @@
 export const Styles = {
+    messageBox:{
+
+    },
+    message:{
+
+    },
     pageHeaderDiv: {
         display: 'flex',
         padding: ' 30px 383px 30px 10px',
@@ -44,14 +50,12 @@ export const Styles = {
     },
     contactFormButton: {
         padding: '10px 20px',
-        backgroundColor: '#007bff',
+        background: 'rgba(86, 101, 239, 0.50)',
         color: 'white',
         border: 'none',
         cursor: 'pointer',
         transition: 'background-color 0.3s',
-        width: '30%'
+        width: '20%',
+        borderRadius:'25px'
     },
-    /*contactFormButton:hover: {
-      backgroundColor: '#0056b3',
-    }*/
 }

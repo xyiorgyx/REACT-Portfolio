@@ -3,14 +3,11 @@ const projects = [
         id: 1,
         name: 'Password Generator',
         description: '',
-        imageURL:'',
-        github:'',
+        image:'../images/interstellar_picture.png',
+        githubLink:'',
         liveLink: null,
-    },
-    {
 
     },
-
 ]
 
 export default projects;
