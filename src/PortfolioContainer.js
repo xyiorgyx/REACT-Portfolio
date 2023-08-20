@@ -4,8 +4,7 @@ import Home from './components/pages/Home';
 import ProjectPage from './components/pages/ProjectPage';
 import Contact from './components/pages/Contact';
 import Resume from  './components/pages/Resume'
-
-// import Footer from './Footer'
+import Footer from './Footer'
 
 
 
@@ -34,6 +33,7 @@ export default function PortfolioContainer() {
       {/* We are passing the currentPage from state and the function to update it */}
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+      <Footer currentPage={currentPage} handlePageChange={handlePageChange}/>
     </div>
   );
 }

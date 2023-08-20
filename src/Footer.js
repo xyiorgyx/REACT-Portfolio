@@ -1,10 +1,11 @@
 import React from 'react';
-import github from './components/images/github-svgrepo-com (1) 1 (2).svg'
-import {Styles} from './components/styles'
-export default function Footer({ currentPage, handlePageChange }) {
-    return(
+import { Styles } from './components/styles/styleFooter';
+import githubImg from './components/images/github-svgrepo-com (1) 1 (2).svg';
+import LiImg from './components/images/linkedin-svgrepo-com (1) 1.svg'
 
-        <footer style={Styles.Footer}>
+export default function NavTabs({ currentPage, handlePageChange }) {
+    return (
+        <div style={Styles.navBox}>
             <ul style={Styles.NavList} className="nav nav-tabs">
                 <li style={Styles.NavButtons}
                     className="navItem">
@@ -20,12 +21,12 @@ export default function Footer({ currentPage, handlePageChange }) {
                 </li>
                 <li style={Styles.NavButtons} className="navItem">
                     <a
-                        href="#about"
-                        onClick={() => handlePageChange('About')}
+                        href="#resume"
+                        onClick={() => handlePageChange('Resume')}
                         // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                        className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                        className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
                     >
-                        About
+                        Resume
                     </a>
                 </li>
                 <li style={Styles.NavButtons} className="navItem">
@@ -33,9 +34,9 @@ export default function Footer({ currentPage, handlePageChange }) {
                         href="#projectpage"
                         onClick={() => handlePageChange('ProjectPage')}
                         // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-                        className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
+                        className={currentPage === 'ProjectPage' ? 'nav-link active' : 'nav-link'}
                     >
-                        Blog
+                        Projects
                     </a>
                 </li>
                 <li style={Styles.NavButtons} className="navItem">
@@ -49,10 +50,14 @@ export default function Footer({ currentPage, handlePageChange }) {
                     </a>
                 </li>
             </ul>
-            <div>
-                <img className='Githun-Icon' src={github}></img>
+            <div className='iconDiv' style={Styles.iconDiv}>
+                <a href='https://github.com/xyiorgyx'>
+                <img src={githubImg} />
+                </a>
+                <a href='https://github.com/xyiorgyx'>
+                <img src={LiImg} />
+                </a>
             </div>
-        </footer>
-);
+        </div>
+    );
 }
-
