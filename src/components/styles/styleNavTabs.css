@@ -1,0 +1,26 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 10%;
+  width: 40%;
+  margin: rem;
+  margin-left: 9rem;
+}
+
+li {
+  position: relative;
+  color: #FFFDF3;
+  font-family: 'Lexend Exa';
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none; /* Remove underline from normal state */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+
+
+
+

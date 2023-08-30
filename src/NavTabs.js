@@ -1,11 +1,11 @@
 import React from 'react';
-import {Styles} from './components/styles/styleNavTabs'
+import './components/styles/styleNavTabs.css'
 import githubImg from './components/images/github-svgrepo-com (1) 1 (2).svg'
 
 export default function NavTabs({ currentPage, handlePageChange }) {
   return (
-      <ul style={Styles.NavList} className="nav nav-tabs">
-        <li style={Styles.NavButtons}
+      <ul className="nav nav-tabs">
+        <li
           className="navItem">
           <a
             href="#home"
@@ -17,7 +17,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             Home
           </a>
         </li>
-        <li style={Styles.NavButtons} className="navItem">
+        <li className="navItem">
           <a
             href="#resume"
             onClick={() => handlePageChange('Resume')}
@@ -27,7 +27,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             Resume
           </a>
         </li>
-        <li style={Styles.NavButtons} className="navItem">
+        <li className="navItem">
           <a
             href="#projectpage"
             onClick={() => handlePageChange('ProjectPage')}
@@ -37,7 +37,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
             Projects
           </a>
         </li>
-        <li style={Styles.NavButtons} className="navItem">
+        <li className="navItem">
           <a
             href="#contact"
             onClick={() => handlePageChange('Contact')}
@@ -52,4 +52,3 @@ export default function NavTabs({ currentPage, handlePageChange }) {
 }
 
 
-{}

@@ -3,10 +3,8 @@ const projects = [
         id: 1,
         name: 'Password Generator',
         description: '',
-        image:'../images/interstellar_picture.png',
+        image: 'PasswordGen' ,
         githubLink:'',
-        liveLink: null,
-
     },
 ]
 

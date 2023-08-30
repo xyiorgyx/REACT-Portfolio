@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {Styles} from '../styles/styleContact'; // Import your CSS file
+import '../styles/contactStyles.css'; // Import your CSS file
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -20,14 +20,13 @@ const ContactPage = () => {
 
   return (
     <div>
-    <div className='headerContainer' style={Styles.pageHeaderDiv}>
-    <h1 className='MainHeader' style={Styles.pageHeader}> Contact Me</h1>
+    <div className='header-container'>
+    <h1 className='main-header' > Contact Me</h1>
     </div>
-    <div className="contact-container" style={Styles.contactContainer}>
-      <form className="contact-form" style={Styles.contactForm} onSubmit={handleSubmit}>
-        <label style={Styles.contactFormLabel} htmlFor="name">Name</label>
+    <div className="contact-container" >
+      <form className="contact-form"  onSubmit={handleSubmit}>
+        <label  htmlFor="name">Name</label>
         <input
-        style={Styles.contactFormInput}
           type="text"
           id="name"
           name="name"
@@ -35,9 +34,8 @@ const ContactPage = () => {
           onChange={handleChange}
           required
         />
-        <label style={Styles.contactFormLabel} htmlFor="email">Email</label>
+        <label  htmlFor="email">Email</label>
         <input
-        style={Styles.contactFormInput}
           type="email"
           id="email"
           name="email"
@@ -45,16 +43,15 @@ const ContactPage = () => {
           onChange={handleChange}
           required
         />
-        <label style={Styles.contactFormLabel} htmlFor="message">Message</label>
+        <label  htmlFor="message">Message</label>
         <textarea
-        style={Styles.contactFormTextarea}
           id="message"
           name="message"
           value={formData.message}
           onChange={handleChange}
           required
         ></textarea>
-        <button style={Styles.contactFormButton} type="submit">Submit</button>
+        <button className='button' type="submit">Submit</button>
       </form>
     </div>
     </div>
