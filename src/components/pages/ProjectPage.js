@@ -12,32 +12,35 @@ export default function ProjectPage() {
   return (
 
     <div className='Main-container' >
-
-      
       <div className='Header-container' >
-<h1>Projects</h1>
-
+        <h1 className='mainHeader'>Projects</h1>
       </div >
-     
-      {ProjectInfo.map((project) => (
-        <div key={project.id} style={{
-          position: 'relative',
-          flexShrink: 0,
-          height: '100px',
-          width: '100px',
-          boxShadow: '0 4px 4px 0px',
-          margin: '1%',
-          backgroundImage: `URL(${projects[project.id]})`
-        }}>
-          <div className='header-background'>
-            <h2 className='project-name'>{project.name}</h2>
-            <img src={githubImg} />
-          </div>
-          <p>{`${project.description}`}</p>
-          </div>
+
+      <div className='project-container'>
+
+        {ProjectInfo.map((project) => (
         
-        
-      ))}
+            <div className='project-div' key={project.id} /*style={{
+            backgroundImage: `URL(${projects[project.id]})
+          }}*/>  
+          <a>
+              <img className='project-image' src={projects[project.id]}></img>
+              {/* <div className='header-background'>
+
+              <h2 className='project-name'>{project.name}</h2>
+              <a >
+                <img src={githubImg} />
+              </a>
+            </div>
+            <p>{`${project.description}`}</p> */}
+            </a>
+            </div>
+          
+
+
+
+        ))}
+      </div>
     </div>
 
   );

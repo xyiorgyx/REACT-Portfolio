@@ -1,15 +1,17 @@
 .Main {
-    display: flex;
-    flex-direction: row;
+    height: 100%;
+    width: 100%;
 }
 
-.header-container {
+.Header-container {
+    position: flex;
     display: block;
     width: 100%;
-    padding: 30px 383px 30px 10px;
-    justify-content: center;
-    align-items: center;
+    padding: 30px 0px;
     gap: 10px;
+    text-align: center;
+    border-top: 2px solid var(--WHITE, #FFFDF3);
+    border-bottom: 2px solid var(--WHITE, #FFFDF3);
 }
 
 .mainHeader {
@@ -17,18 +19,27 @@
     font-size: 80px;
     font-style: normal;
     font-weight: 700;
-    line-height: 125%; /* 100px */
+    line-height: 125%;
     color: var(--white, #FFFDF3);
     justify-content: center;
 }
 
-.Projectdiv {
-    position: relative;
-    flex-shrink: 0;
-    height: 25%;
-    width: 25%;
-    box-shadow: 0 4px 4px 0px;
-    margin: 1;
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.project-div {
+    color: var(--white, #FFFDF3);
+    flex-shrink: 0;
+    width: 30%;
+    height: 30rem;
+    box-shadow: 0 4px 4px 0px;
+    margin: 4rem 1rem 1rem 2rem;
+    background-size: contain;
+}
 
+.project-image{
+    height: 50%;
+    width: 100%;
+}

@@ -1,7 +1,7 @@
 .nav-nav-tabs {
   display: flex;
   flex-wrap: wrap;
-  padding: 10px;
+  padding: 3rem;
   gap: 10%;
   width: 40%;
   margin: rem;
@@ -20,7 +20,25 @@ li {
   transition: color 0.3s; /* Smooth color transition */
 }
 
+li:after {
+  
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FFFDF3;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
 
+  
+}
+li:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 
 
 
