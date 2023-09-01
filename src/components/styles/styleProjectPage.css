@@ -4,6 +4,7 @@
 }
 
 .Header-container {
+    
     position: flex;
     display: block;
     width: 100%;
@@ -16,7 +17,7 @@
 
 .mainHeader {
     font-family: 'MuseoModerno';
-    font-size: 80px;
+    font-size: 5rem;
     font-style: normal;
     font-weight: 700;
     line-height: 125%;
@@ -26,20 +27,22 @@
 
 .project-container{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .project-div {
     color: var(--white, #FFFDF3);
-    flex-shrink: 0;
-    width: 30%;
+    min-width: 500px;
+    width: 100px;
     height: 30rem;
     box-shadow: 0 4px 4px 0px;
-    margin: 4rem 1rem 1rem 2rem;
-    background-size: contain;
+    margin: 3rem 1rem;
+    box-sizing: border-box;
 }
 
 .project-image{
-    height: 50%;
+    height: 100%;
     width: 100%;
 }

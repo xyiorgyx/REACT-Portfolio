@@ -1,0 +1,20 @@
+.header-container {
+    position: flex;
+    display: block;
+    width: 100%;
+    padding: 30px 0px;
+    gap: 10px;
+    text-align: center;
+    border-top: 2px solid var(--WHITE, #FFFDF3);
+    border-bottom: 2px solid var(--WHITE, #FFFDF3);
+}
+
+.main-header {
+    color: var(--white, #FFFDF3);
+    font-family: MuseoModerno;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    
+}

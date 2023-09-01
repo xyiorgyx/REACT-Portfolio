@@ -19,11 +19,10 @@ export default function ProjectPage() {
       <div className='project-container'>
 
         {ProjectInfo.map((project) => (
-        
             <div className='project-div' key={project.id} /*style={{
             backgroundImage: `URL(${projects[project.id]})
           }}*/>  
-          <a>
+          <a href={project.githubLink}>
               <img className='project-image' src={projects[project.id]}></img>
               {/* <div className='header-background'>
 

@@ -15,15 +15,6 @@
   gap: 48px;
 }
 
-li {
-  color: #FFFDF3;
-  font-family: 'Lexend Exa';
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  text-decoration: none; /* Remove underline from normal state */
-  transition: color 0.3s; /* Smooth color transition */
-}
 
 .icon-div{
   

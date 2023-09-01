@@ -1,10 +1,12 @@
 import React from 'react';
-
+import '../styles/resumeStyles.css'
 
 export default function Resume() {
   return (
     <div>
-      <h1>Contact Page</h1>
+      <div className='header-container'>
+      <h1 className='main-header'>Resume</h1>
+      </div>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
         molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet

@@ -2,14 +2,12 @@
   display: flex;
   flex-wrap: wrap;
   padding: 3rem;
-  gap: 10%;
-  width: 40%;
-  margin: rem;
-  margin-left: 9rem;
+  gap: 3%;
+  width: 100%;
+  padding-left: 17%;
 }
 
 li {
-  position: relative;
   color: #FFFDF3;
   font-family: 'Lexend Exa';
   font-size: 1.125rem;
@@ -18,6 +16,10 @@ li {
   line-height: normal;
   text-decoration: none; /* Remove underline from normal state */
   transition: color 0.3s; /* Smooth color transition */
+}
+
+li:active{
+  color:  #5665EF;
 }
 
 li:after {
@@ -35,6 +37,7 @@ li:after {
 
   
 }
+
 li:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;

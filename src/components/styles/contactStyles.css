@@ -1,12 +1,13 @@
 
 .header-container {
-    display: flex;
-    padding: 30px 383px 30px 10px;
-    justify-content: flex-end;
-    align-items: center;
+    position: flex;
+    display: block;
+    width: 100%;
+    padding: 30px 0px;
     gap: 10px;
-    border-top: 2px solid var(--white, #FFFDF3);
-    border-bottom: 2px solid var(--white, #FFFDF3);
+    text-align: center;
+    border-top: 2px solid var(--WHITE, #FFFDF3);
+    border-bottom: 2px solid var(--WHITE, #FFFDF3);
 }
 
 .main-header {
@@ -16,6 +17,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 125%;
+    
 }
 
 .contact-container {
