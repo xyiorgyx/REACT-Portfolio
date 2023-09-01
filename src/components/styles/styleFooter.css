@@ -9,7 +9,7 @@
   flex-shrink: 0;
 }
 
-ul {
+.footer-nav-tabs {
   justify-content: center;
   display: flex;
   gap: 48px;

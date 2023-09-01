@@ -1,0 +1,34 @@
+.Main {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-container {
+    display: block;
+    width: 100%;
+    padding: 30px 383px 30px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.mainHeader {
+    font-family: 'MuseoModerno';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 100px */
+    color: var(--white, #FFFDF3);
+    justify-content: center;
+}
+
+.Projectdiv {
+    position: relative;
+    flex-shrink: 0;
+    height: 25%;
+    width: 25%;
+    box-shadow: 0 4px 4px 0px;
+    margin: 1;
+}
+
+

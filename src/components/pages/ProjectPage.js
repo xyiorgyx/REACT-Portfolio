@@ -1,35 +1,45 @@
 import React from 'react';
-import { Styles } from '../styles/styleProjectPage.js';
+import '../styles/styleProjectPage.css';
 import ProjectInfo from '../pages/projectData.js';
 import githubImg from '../images/github-svgrepo-com (1) 1 (2).svg';
-import PasswordGen from '../images/interstellar_picture.png'
+import PasswordGen from '../images/projectImages/passGen.png'
+import EmployeeTrack from '../images/projectImages/employee-Track.png'
+
+const projects = [PasswordGen, EmployeeTrack]
+
 export default function ProjectPage() {
 
   return (
-    
-    <div className='Main-container' style={Styles.Main}>
-      <div className='Header-container' style={Styles.headerContainer}>
-      <h1 style={Styles.mainHeader}>Projects</h1>
-      </div>
+
+    <div className='Main-container' >
+
+      
+      <div className='Header-container' >
+<h1>Projects</h1>
+
+      </div >
+     
       {ProjectInfo.map((project) => (
         <div key={project.id} style={{
-        position: 'relative',
-        flexShrink: 0,
-        height: '100px',
-        width: '100px',
-        boxShadow: '0 4px 4px 0px',
-        margin: '1%',
-        backgroundImage: `URL(${project.image})`
+          position: 'relative',
+          flexShrink: 0,
+          height: '100px',
+          width: '100px',
+          boxShadow: '0 4px 4px 0px',
+          margin: '1%',
+          backgroundImage: `URL(${projects[project.id]})`
         }}>
-          <div className='header-background' style={Styles.headerBack}>
-          <h2 className='project-name' style={Styles.name}>{project.name}</h2>
-          <img src={githubImg}/>
-        </div>
+          <div className='header-background'>
+            <h2 className='project-name'>{project.name}</h2>
+            <img src={githubImg} />
+          </div>
           <p>{`${project.description}`}</p>
-        </div>
+          </div>
+        
+        
       ))}
     </div>
-    
+
   );
 }
 

@@ -6,7 +6,7 @@ import LiImg from './components/images/linkedin-svgrepo-com (1) 1.svg'
 export default function NavTabs({ currentPage, handlePageChange }) {
     return (
         <div className='footer-container'>
-            <ul  className="nav nav-tabs">
+            <ul  className="footer-nav-tabs">
                 <li
                     className="navItem">
                     <a
@@ -39,7 +39,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
                         Projects
                     </a>
                 </li>
-                <li className="navItem">
+                <li className="footnavItem">
                     <a
                         href="#contact"
                         onClick={() => handlePageChange('Contact')}
