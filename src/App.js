@@ -22,12 +22,7 @@ const App = () => {
 
                 }
             }>
-                <div className="bright-corner-light">
-
-                </div >
-                <div className='bright-top-light'>
-
-                </div>
+                
                 <PortfolioContainer />
             </div>
         </div >

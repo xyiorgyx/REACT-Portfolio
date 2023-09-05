@@ -4,6 +4,8 @@ import githubImg from './components/images/github-svgrepo-com (1) 1 (2).svg'
 
 export default function NavTabs({ currentPage, handlePageChange }) {
   return (
+    <div>
+      <div></div>
       <ul className="nav-nav-tabs">
         <li
           className="navItem">
@@ -48,6 +50,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li>
       </ul>
+      </div>
   );
 }
 

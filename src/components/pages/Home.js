@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <div >
       <div className='top-container'>
+        <div className='name-and-webdev-box'>
         <div className='web-developer-container'>
           <h2 className='web-developer'>web developer</h2>
         </div>
@@ -19,18 +20,19 @@ export default function Home() {
           </h1>
 
         </div>
-
-        <img className='selfie'
-          src={Selfie}
-        />
-
+        </div>
+        <div className='selfie-container'>
+          <img className='selfie'
+            src={Selfie}
+          />
+        </div>
       </div>
       <div className='welcome-container'>
         <h2 className='welcome'>
           Welcome to my portfolio website! I'm really thrilled to have you here.
         </h2>
       </div>
-      <div className='about'>
+      {/*  <div className='about'>
 
         <div className='earth-box'>
           <img className='Earth'
@@ -45,7 +47,7 @@ export default function Home() {
             src={CodePic}
           />
         </div>
-      </div>
+      </div> */}
       {/* <div className='bottom-container'  >
         <img
           className='fourth-demension'
