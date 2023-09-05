@@ -32,13 +32,13 @@ export default function Home() {
           Welcome to my portfolio website! I'm really thrilled to have you here.
         </h2>
       </div>
-      {/*  <div className='about'>
+        <div className='about'>
 
         <div className='earth-box'>
-          <img className='Earth'
+          <img className='earth'
             src={Earth} />
         </div>
-        <div className='Aboutme&codingPicture'>
+        <div className='coding-about-container'>
           <div className='introduction-container'>
             <p className='introduction' >I am a passionate web developer based in the beautiful city of Charlotte, North Carolina. With a strong background in coding and a keen eye for design, I specialize in creating stunning and functional websites that leave a lasting impression.</p>
           </div>
@@ -47,7 +47,7 @@ export default function Home() {
             src={CodePic}
           />
         </div>
-      </div> */}
+      </div> 
       {/* <div className='bottom-container'  >
         <img
           className='fourth-demension'

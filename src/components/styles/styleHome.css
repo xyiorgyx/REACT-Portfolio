@@ -7,13 +7,13 @@
   flex: auto;
 }
 
-.name-and-webdev-box{
+.name-and-webdev-box {
   width: 50%;
 }
 
 .web-developer-container {
   width: 100%;
-  display:flex;
+  display: flex;
   margin: 35% 10% 5% 40%
 }
 
@@ -25,7 +25,7 @@
   font-weight: 400;
   line-height: normal;
   z-index: 1;
- 
+
 }
 
 .name-container {
@@ -38,22 +38,23 @@
   font-family: MuseoModerno;
   font-size: 7.5rem;
   font-weight: 700;
-  line-height: 7rem;
+  line-height: 6rem;
+  margin-left: 10%;
 }
 
 .selfie-container {
-width: 50%;
-height: 100%;
+  width: 50%;
+  height: 100%;
 }
 
 .selfie {
- display: static;
-width: 450px;
+  display: relative;
+  width: 40rem;
+  margin-left: 20%;
 }
 
 .welcome-container {
   display: flex;
-  width: 100%;
   padding: 1.875rem 0.625rem;
   justify-content: center;
   align-items: center;
@@ -74,33 +75,45 @@ width: 450px;
 }
 
 .about {
-  display: inline-flex;
-  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid var(--white, #FFFDF3);
 }
+
 
 .coding-about-container {
- 
+  display:flexbox;
+  height:100% ;
+  width: 100%;
 }
 
-.earth-box {
-
+.earth-box { 
+  margin-left: 10%;
+  border-left: 2px solid var(--white, #FFFDF3);
+  border-right: 2px solid var(--white, #FFFDF3);
 }
 
-.earth-photo {
-  
+.earth {
+  padding: 20%;
 }
 
 .introduction-container {
- 
+
 }
 
 .introduction {
- 
+color: #FFFDF3;
+padding: 10%;
+font-size: larger;
+  
 }
 
 .coding-pic {
-  
+height: 50%;
 }
+
+
+
 
 .bottom-container {
   width: 100%;
@@ -109,14 +122,8 @@ width: 450px;
   align-items: flex-start;
 }
 
-.fourth-demension {
-  
-}
+.fourth-demension {}
 
-.my-work-container {
-  
-}
+.my-work-container {}
 
-.my-work {
-
-}
+.my-work {}
