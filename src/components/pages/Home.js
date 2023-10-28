@@ -48,7 +48,7 @@ export default function Home() {
           />
         </div>
       </div> 
-      {/* <div className='bottom-container'  >
+       <div className='bottom-container'  >
         <img
           className='fourth-demension'
           src={fourthDimension} />
@@ -65,7 +65,7 @@ export default function Home() {
             Thank you for visiting my portfolio website. I invite you to explore my work and get in touch with me to discuss how we can collaborate on your next project. Let's create something amazing together!
           </p>
         </div>
-      </div> */}
+      </div> 
       <div className='footer'>
 
       </div>

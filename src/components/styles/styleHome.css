@@ -1,10 +1,6 @@
 .top-container {
-  max-height: 585px;
   height: auto;
   display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  flex: auto;
 }
 
 .name-and-webdev-box {
@@ -25,12 +21,11 @@
   font-weight: 400;
   line-height: normal;
   z-index: 1;
-
 }
 
 .name-container {
   position: relative;
-
+  z-index: 1;
 }
 
 .name {
@@ -43,14 +38,13 @@
 }
 
 .selfie-container {
-  width: 50%;
-  height: 100%;
+  position: relative;
 }
 
 .selfie {
   display: relative;
-  width: 40rem;
-  margin-left: 20%;
+  width: auto;
+  max-width: 400px;
 }
 
 .welcome-container {
@@ -67,11 +61,10 @@
 .welcome {
   color: var(--white, #FFFDF3);
   font-family: Lexend Exa;
-  font-size: 2.25rem;
+  font-size: 1.7rem;
   font-style: normal;
   font-weight: 600;
   line-height: 50px;
-  /* 2.7rem */
 }
 
 .about {
@@ -82,48 +75,74 @@
 
 
 .coding-about-container {
-  display:flexbox;
-  height:100% ;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
 }
 
-.earth-box { 
-  margin-left: 10%;
+.earth-box {
+  margin-left: 5%;
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
   border-left: 2px solid var(--white, #FFFDF3);
   border-right: 2px solid var(--white, #FFFDF3);
+ 
 }
 
 .earth {
-  padding: 20%;
+  padding: 5%;
 }
 
 .introduction-container {
-
+  position: relative;
+  text-align: center;
+  display: flex;
 }
 
 .introduction {
-color: #FFFDF3;
-padding: 10%;
-font-size: larger;
-  
+  position: relative;
+  color: #FFFDF3;
+  font-size: medium;
+  padding: 11% 20px 12% 20px;
 }
-
-.coding-pic {
-height: 50%;
-}
-
-
 
 
 .bottom-container {
-  width: 100%;
-  display: inline-flex;
-  flex-direction: row;
-  align-items: flex-start;
+  display: flex;
 }
 
-.fourth-demension {}
+.fourth-demension {
+  max-width: 50%;
+  max-height: 600px;
+  height: auto;
+}
 
-.my-work-container {}
+.my-work-container {
+  max-height: 600px;
+  max-width: 1000px;
+  padding: 0 3%;
+  display: flex;
+  width: 1252px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-top: 2px solid var(--WHITE, #FFFDF3);
+border-bottom: 2px solid var(--WHITE, #FFFDF3);
+border-left: 2px solid var(--WHITE, #FFFDF3);
+}
 
-.my-work {}
+.my-work {
+  
+color: var(--WHITE, #FFFDF3);
+font-family: Lexend Giga;
+font-size: 1.6vw;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 24px */
+}
