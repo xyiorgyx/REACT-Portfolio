@@ -58,7 +58,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
                 <a href='https://github.com/xyiorgyx'>
                 <img alt= 'Linked-in Icon' src={LiImg} />
                 </a>
-                <a className='codeWars' href='https://github.com/xyiorgyx'>
+                <a className='codeWars' href='https://www.codewars.com/users/xyiorgyx'>
                 <img alt= 'Code wars icon' src={codeWPic} />
                 </a>
             </div>

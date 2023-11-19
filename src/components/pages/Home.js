@@ -1,25 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Selfie from '../images/me.png'
 import Earth from '../images/Vector.png'
 import CodePic from '../images/coding_picture.png'
 import fourthDimension from '../images/interstellar_picture.png'
 import '../styles/styleHome.css'
 
+
 export default function Home() {
+
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
   return (
     <div >
       <div className='top-container'>
         <div className='name-and-webdev-box'>
-        <div className='web-developer-container'>
-          <h2 className='web-developer'>web developer</h2>
-        </div>
-        <div className='name-container'>
+          <div className='web-developer-container'>
+            <h2 className='web-developer'>web developer</h2>
+          </div>
+          <div className='name-container'>
 
-          <h1 className='name'>
-            Yiorgos<br></br>Bosnakis
-          </h1>
+            <h1 className='name'>
+              Yiorgos<br></br>Bosnakis
+            </h1>
 
-        </div>
+          </div>
         </div>
         <div className='selfie-container'>
           <img className='selfie'
@@ -32,23 +36,35 @@ export default function Home() {
           Welcome to my portfolio website! I'm really thrilled to have you here.
         </h2>
       </div>
+      {screenWidth >= 500 ? (
         <div className='about'>
 
-        <div className='earth-box'>
-          <img className='earth'
-            src={Earth} />
-        </div>
-        <div className='coding-about-container'>
-          <div className='introduction-container'>
+          <div className='earth-box'>
+            <img className='earth'
+              src={Earth} />
+          </div>
+          <div className='coding-about-container'>
+            <div className='introduction-container'>
+              <p className='introduction' >I am a passionate web developer based in the beautiful city of Charlotte, North Carolina. With a strong background in coding and a keen eye for design, I specialize in creating stunning and functional websites that leave a lasting impression.</p>
+            </div>
+            <img className='coding-pic'
+              src={CodePic}
+            />
+          </div>
+        </div>) :
+        <div className='about'>
+
+          <div className='earth-box'>
+            <img className='earth'
+              src={Earth} />
             <p className='introduction' >I am a passionate web developer based in the beautiful city of Charlotte, North Carolina. With a strong background in coding and a keen eye for design, I specialize in creating stunning and functional websites that leave a lasting impression.</p>
           </div>
-
           <img className='coding-pic'
             src={CodePic}
           />
         </div>
-      </div> 
-       <div className='bottom-container'  >
+      }
+      <div className='bottom-container'  >
         <img
           className='fourth-demension'
           src={fourthDimension} />
@@ -65,7 +81,7 @@ export default function Home() {
             Thank you for visiting my portfolio website. I invite you to explore my work and get in touch with me to discuss how we can collaborate on your next project. Let's create something amazing together!
           </p>
         </div>
-      </div> 
+      </div>
       <div className='footer'>
 
       </div>
