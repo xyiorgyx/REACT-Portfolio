@@ -1,16 +1,23 @@
 .top-container {
-  height: auto;
   display: flex;
+  flex-direction: row;
+}
+
+.selfie-container {
+  display: flex;
+  max-width: 550px;
 }
 
 .name-and-webdev-box {
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 55%;
 }
 
 .web-developer-container {
-  width: 100%;
   display: flex;
-  margin: 35% 10% 5% 40%
+  justify-content: center;
 }
 
 .web-developer {
@@ -24,8 +31,8 @@
 }
 
 .name-container {
-  position: relative;
   z-index: 1;
+
 }
 
 .name {
@@ -33,18 +40,8 @@
   font-family: MuseoModerno;
   font-size: 7.5rem;
   font-weight: 700;
-  line-height: 6rem;
-  margin-left: 10%;
-}
-
-.selfie-container {
-  position: relative;
-}
-
-.selfie {
-  display: relative;
-  width: auto;
-  max-width: 400px;
+  line-height: 8rem;
+  margin-left: 15%;
 }
 
 .welcome-container {
@@ -77,72 +74,65 @@
 .coding-about-container {
   display: flex;
   flex-direction: column;
-  height: auto;
-  width: auto;
+  width: 74%
+}
+
+.coding-pic {
+  margin-top: auto;
 }
 
 .earth-box {
-  margin-left: 5%;
+  width: 45%;
   display: flex;
-  width: 1000px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  align-self: stretch;
-  border-left: 2px solid var(--white, #FFFDF3);
   border-right: 2px solid var(--white, #FFFDF3);
- 
 }
 
 .earth {
-  padding: 5%;
+  height: 90%;
+  padding: 15%;
 }
 
 .introduction-container {
-  position: relative;
-  text-align: center;
   display: flex;
+  text-align: center;
 }
 
 .introduction {
   position: relative;
   color: #FFFDF3;
-  font-size: medium;
+  font-size: 20px;
   padding: 11% 20px 12% 20px;
 }
 
-
 .bottom-container {
   display: flex;
+  flex-direction: row;
 }
 
 .fourth-demension {
-  max-width: 50%;
+  min-width: 30%;
   max-height: 600px;
   height: auto;
 }
 
 .my-work-container {
-  max-height: 600px;
-  max-width: 1000px;
-  padding: 0 3%;
   display: flex;
-  width: 1252px;
   text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  border-top: 2px solid var(--WHITE, #FFFDF3);
-border-bottom: 2px solid var(--WHITE, #FFFDF3);
-border-left: 2px solid var(--WHITE, #FFFDF3);
+  padding: 0 3%;
+  width:auto; 
+  border-bottom: 2px solid var(--WHITE, #FFFDF3);
+  border-left: 2px solid var(--WHITE, #FFFDF3);
 }
 
 .my-work {
-  
-color: var(--WHITE, #FFFDF3);
-font-family: Lexend Giga;
-font-size: 1.6vw;
-font-style: normal;
-font-weight: 400;
-line-height: 120%; /* 24px */
+  color: var(--WHITE, #FFFDF3);
+  font-family: Lexend Giga;
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 24px */
 }

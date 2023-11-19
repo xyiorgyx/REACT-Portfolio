@@ -1,6 +1,5 @@
 import React from 'react';
 import './components/styles/styleNavTabs.css'
-import githubImg from './components/images/github-svgrepo-com (1) 1 (2).svg'
 
 export default function NavTabs({ currentPage, handlePageChange }) {
   return (

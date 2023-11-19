@@ -17,15 +17,19 @@
 
 
 .icon-div{
-  
   display: flex;
   gap: 10px;
   flex-direction: row;
+ justify-content: center;
 }
 
 img {
   display: flex;
   align-items: flex-start;
   gap: 57px;
+}
+
+.codeWars {
+  width: 25%;
 }
   

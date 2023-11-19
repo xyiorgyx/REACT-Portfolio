@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/styleProjectPage.css';
-import githubImg from '../images/github-svgrepo-com (1) 1 (2).svg';
+// import githubImg from '../images/github-svgrepo-com (1) 1 (2).svg';
 import ProjectInfo from '../pages/projectData.js';
 import DailyPlanner from '../images/projectImages/daily planner.png'
 import PasswordGen from '../images/projectImages/passGen.png'
@@ -28,7 +28,7 @@ export default function ProjectPage() {
             backgroundImage: `URL(${projects[project.id]})
           }}*/>
             <a href={project.githubLink}>
-              <img className='project-image' src={projects[project.id]}></img>
+              <img alt= {project.alt} className='project-image' src={projects[project.id]}></img>
               {/* <div className='header-background'>
 
               <h2 className='project-name'>{project.name}</h2>
@@ -39,10 +39,6 @@ export default function ProjectPage() {
             <p>{`${project.description}`}</p> */}
             </a>
           </div>
-
-
-
-
         ))}
       </div>
     </div>
