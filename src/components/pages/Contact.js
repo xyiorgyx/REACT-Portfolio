@@ -1,7 +1,30 @@
-import React, { useState } from 'react';
+import React, { useState }  from 'react';
+import { useRef } from 'react'
 import '../styles/contactStyles.css'; // Import your CSS file
+import emailjs from '@emailjs/browser';
 
 const ContactPage = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_cicitgd', 'template_cou9h7c', form.current, 'FMlJNzxSJ1wG7O9wV')
+      .then((result) => {
+          console.log(result.text)
+          console.log("EMAIL SENT");
+      }, (error) => {
+          console.log(error.text);
+      });
+    
+    setFormData({
+      name: '',
+      email: '',
+      message: '',
+    })
+  };
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -13,10 +36,7 @@ const ContactPage = () => {
     setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(formData); // You can perform your submission logic here
-  };
+ 
 
   return (
     <div>
@@ -24,7 +44,7 @@ const ContactPage = () => {
     <h1 className='main-header' > Contact Me</h1>
     </div>
     <div className="contact-container" >
-      <form className="contact-form"  onSubmit={handleSubmit}>
+      <form ref={form} className="contact-form"  onSubmit={sendEmail}>
         <label  htmlFor="name">Name</label>
         <input
           type="text"
@@ -43,7 +63,7 @@ const ContactPage = () => {
           onChange={handleChange}
           required
         />
-        <label  htmlFor="message">Message</label>
+        <label htmlFor="message">Message</label>
         <textarea
           id="message"
           name="message"
@@ -51,7 +71,7 @@ const ContactPage = () => {
           onChange={handleChange}
           required
         ></textarea>
-        <button className='button' type="submit">Submit</button>
+        <button value='Send' className='button' type="submit" >Submit</button>
       </form>
     </div>
     </div>
