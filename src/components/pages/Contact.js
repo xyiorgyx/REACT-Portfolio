@@ -12,10 +12,9 @@ const ContactPage = () => {
 
     emailjs.sendForm('service_cicitgd', 'template_cou9h7c', form.current, 'FMlJNzxSJ1wG7O9wV')
       .then((result) => {
-          console.log(result.text)
-          console.log("EMAIL SENT");
+        setFeedback('Message sent successfully!');
       }, (error) => {
-          console.log(error.text);
+        setFeedback('An error occurred. Please try again later.');
       });
     
     setFormData({
@@ -23,6 +22,8 @@ const ContactPage = () => {
       email: '',
       message: '',
     })
+
+    
   };
 
   const [formData, setFormData] = useState({
@@ -31,6 +32,8 @@ const ContactPage = () => {
     message: '',
   });
 
+  const [feedback, setFeedback] = useState(null);
+  
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({ ...prevData, [name]: value }));
@@ -44,6 +47,7 @@ const ContactPage = () => {
     <h1 className='main-header' > Contact Me</h1>
     </div>
     <div className="contact-container" >
+    {feedback && <p className={feedback.includes('error') ? 'error-message' : 'success-message'}>{feedback}</p>}
       <form ref={form} className="contact-form"  onSubmit={sendEmail}>
         <label  htmlFor="name">Name</label>
         <input
