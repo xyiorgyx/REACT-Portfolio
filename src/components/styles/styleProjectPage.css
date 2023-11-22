@@ -46,3 +46,26 @@
     object-fit: fill;
     image-rendering:pixelated;
 }
+
+.project-div-blurred{
+    color: var(--white, #FFFDF3);
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 4px 4px 0px;
+    margin: 3rem 2rem;
+    filter: blur(10px);
+}
+
+.project-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    display: none;
+  }
+  
+  .project-div:hover .project-info {
+    display: block;
+  }

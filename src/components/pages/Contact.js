@@ -33,13 +33,11 @@ const ContactPage = () => {
   });
 
   const [feedback, setFeedback] = useState(null);
-  
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
-
- 
 
   return (
     <div>
