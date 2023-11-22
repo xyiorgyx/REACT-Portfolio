@@ -15,33 +15,29 @@ li {
   font-weight: 400;
   line-height: normal;
   text-decoration: none; /* Remove underline from normal state */
+  position: relative; /* Make li a positioned container */
   transition: color 0.3s; /* Smooth color transition */
 }
 
-li:active{
+.nav-link.active {
   color:  #5665EF;
 }
 
 li:after {
-  
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #FFFDF3;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-
-  
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFFDF3;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
 }
 
 li:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-
-
 
