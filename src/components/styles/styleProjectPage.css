@@ -4,7 +4,7 @@
 }
 
 .Header-container {
-    
+
     position: flex;
     display: block;
     width: 100%;
@@ -25,47 +25,64 @@
     justify-content: center;
 }
 
-.project-container{
+.project-container {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
 }
 
+
 .project-div {
-    color: var(--white, #FFFDF3);
-    width: 500px;
-    height: 400px;
-    box-shadow: 0 4px 4px 0px;
-    margin: 3rem 2rem;
-}
-
-.project-image{
-    height: 100%;
+    position: relative;
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+    overflow: hidden;
+  }
+  
+  .project-link {
+    position: relative;
+    display: block;
+  }
+  
+  .project-image-container {
+    position: relative;
     width: 100%;
-    object-fit: fill;
-    image-rendering:pixelated;
-}
-
-.project-div-blurred{
-    color: var(--white, #FFFDF3);
-    width: 500px;
-    height: 400px;
-    box-shadow: 0 4px 4px 0px;
-    margin: 3rem 2rem;
-    filter: blur(10px);
-}
-
-.project-info {
+    height: 100%;
+    
+  }
+  
+  .project-image {
+    width: 100%; /* Adjust as needed */
+    height: auto;
+    transition: filter 0.3s ease-out; /* Add a transition for a smoother effect */
+  }
+  
+  .project-info {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
     text-align: center;
     color: white;
-    display: none;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease-out; /* Add a transition for a smoother effect */
+  }
+  
+  .project-div:hover .project-image {
+    filter: blur(5px); /* Apply blur only to the image when hovered */
   }
   
   .project-div:hover .project-info {
-    display: block;
+    opacity: 1; /* Show the project-info div when hovered */
+    z-index: 1; /* Place the project-info div in front of the image */
   }
+  

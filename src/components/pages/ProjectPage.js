@@ -1,3 +1,5 @@
+// ProjectPage.js
+
 import React, { useState } from 'react';
 import '../styles/styleProjectPage.css';
 import ProjectInfo from '../pages/projectData.js';
@@ -32,16 +34,19 @@ export default function ProjectPage() {
         {ProjectInfo.map((project) => (
           <div
             key={project.id}
-            className={`project-div${hoveredProject === project.id ? '-blurred' : ''}`}
-            onMouseOver={() => handleMouseOver(project.id)}
-            onMouseOut={handleMouseOut}
+            className='project-div'
+            onMouseEnter={() => handleMouseOver(project.id)} // Use onMouseEnter for more reliable hover-in events
+            onMouseLeave={handleMouseOut}
           >
-            <a href={project.githubLink}>
-              <img alt={project.alt} className='project-image' src={projects[project.id]} />
+            <a href={project.githubLink} className='project-link'>
+              <div className='project-image-container'>
+                <img alt={project.alt} className={`project-image ${hoveredProject === project.id ? 'blurred' : ''}`} src={projects[project.id]} />
+              </div>
               {hoveredProject === project.id && (
                 <div className='project-info'>
-                  <h2>{project.name}</h2>
+                  <h2>{project.title}</h2>
                   <p>{project.description}</p>
+                  <p>Languages: {project.languages.join(', ')}</p>
                 </div>
               )}
             </a>
@@ -51,6 +56,7 @@ export default function ProjectPage() {
     </div>
   );
 }
+
 
 
 

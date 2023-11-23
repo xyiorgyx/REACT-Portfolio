@@ -38,7 +38,8 @@ label {
 }
 
 input {
-    width: auto;
+    width: 50%;
+    min-width: 300px;
     padding: 10px;
     border: 1px solid #ccc;
 }
@@ -57,7 +58,8 @@ textarea {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
-    width: auto;
+    width: 20%;
+    min-width: 300px;
     border-radius: 25px;
 }
 
