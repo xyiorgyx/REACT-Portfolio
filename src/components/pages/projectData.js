@@ -6,7 +6,7 @@ const projects = [
         githubLink: 'https://github.com/xyiorgyx/Password-Generator',
         liveLink: 'https://xyiorgyx.github.io/Password-Generator/',
         alt: 'Password generator application',
-        languages: [],
+        languages: ['HTML5', 'Javascript'],
 
     },
     {

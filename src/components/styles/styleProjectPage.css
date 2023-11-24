@@ -49,15 +49,13 @@
   
   .project-image-container {
     position: relative;
-    width: 100%;
-    height: 100%;
-    
   }
   
   .project-image {
     width: 100%; /* Adjust as needed */
-    height: auto;
+    height: 100%;
     transition: filter 0.3s ease-out; /* Add a transition for a smoother effect */
+    
   }
   
   .project-info {
@@ -70,11 +68,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    background-color: rgba(0, 0, 0, 0.8); 
     text-align: center;
     color: white;
-    opacity: 0; /* Hidden by default */
-    transition: opacity 0.3s ease-out; /* Add a transition for a smoother effect */
+    opacity: 0; 
+    transition: opacity 0.3s ease-out; 
   }
   
   .project-div:hover .project-image {

@@ -66,7 +66,6 @@
 
 .about {
   display: flex;
-  flex-direction: row;
   border-bottom: 2px solid var(--white, #FFFDF3);
 }
 
@@ -82,15 +81,15 @@
 }
 
 .earth-box {
-  max-width: 35%;
-  min-width: 35%;
   display: flex;
+  align-items: center;
+  max-width: 35%;
   border-right: 2px solid var(--white, #FFFDF3);
 }
 
 .earth {
-  height: 90%;
-  padding: 15%;
+object-fit: cover;  
+padding: 5%;
 }
 
 .introduction-container {
@@ -228,14 +227,14 @@
 
   .earth {
     max-width: 350px;
-    max-height: 350px ;
+    max-height: 350px;
     padding: 0;
   }
 
   .introduction {
     position: absolute;
-    left:40%;
-    top:40%;
+    left: 40%;
+    top: 40%;
     color: var(--WHITE, #FFFDF3);
     /* Mobile/Text */
     font-family: Lexend Exa;
