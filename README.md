@@ -1,7 +1,7 @@
 # React Portfolio
 
 ## Decription
-This portfolio is intended to show the basiuc skills or REACT use while show casing projects and challenges that have been condiucted by me. 
+This portfolio is intended to show some of my basic skills, like REACT while show casing some of the projects and challenges that have completed over the months. 
 
 ## Git hub link
 https://github.com/xyiorgyx/REACT-Portfolio
