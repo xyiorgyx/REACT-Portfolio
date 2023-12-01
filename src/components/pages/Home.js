@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
     <div >
-      <div className='top-container'>
+      <section className='top-container'>
         <div className='name-and-webdev-box'>
           <div className='web-developer-container'>
             <h2 className='web-developer'>web developer</h2>
@@ -30,14 +30,14 @@ export default function Home() {
             src={Selfie}
           />
         </div>
-      </div>
+      </section>
       <div className='welcome-container'>
         <h2 className='welcome'>
           Welcome to my portfolio website! I'm really thrilled to have you here.
         </h2>
       </div>
       {screenWidth >= 500 ? (
-        <div className='about'>
+        <section className='about'>
 
           <div className='earth-box'>
             <img className='earth'
@@ -51,8 +51,8 @@ export default function Home() {
               src={CodePic}
             />
           </div>
-        </div>) :
-        <div className='about'>
+        </section>) :
+        <section className='about'>
 
           <div className='earth-box'>
             <img className='earth'
@@ -62,9 +62,9 @@ export default function Home() {
           <img className='coding-pic'
             src={CodePic}
           />
-        </div>
+        </section>
       }
-      <div className='bottom-container'  >
+      <section className='bottom-container'  >
         <img
           className='fourth-demension'
           src={fourthDimension} />
@@ -81,7 +81,7 @@ export default function Home() {
             Thank you for visiting my portfolio website. I invite you to explore my work and get in touch with me to discuss how we can collaborate on your next project. Let's create something amazing together!
           </p>
         </div>
-      </div>
+      </section>
       <div className='footer'>
 
       </div>

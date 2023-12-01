@@ -1,3 +1,5 @@
+
+
 .top-container {
   display: flex;
   flex-direction: row;
@@ -88,8 +90,8 @@
 }
 
 .earth {
-object-fit: cover;  
-padding: 5%;
+  object-fit: cover;
+  padding: 5%;
 }
 
 .introduction-container {
@@ -110,31 +112,32 @@ padding: 5%;
 }
 
 .fourth-demension {
-  min-width: 30%;
-  max-height: 600px;
-  height: auto;
+  width: 600px;
+  height: 100%;
 }
 
 .my-work-container {
   display: flex;
-  text-align: center;
+  width: 100%;
+  padding: 50px 20px 50px 283px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 0 3%;
-  width: auto;
-  border-bottom: 2px solid var(--WHITE, #FFFDF3);
-  border-left: 2px solid var(--WHITE, #FFFDF3);
+  gap: 10px;
+  align-self: stretch;
+  border-bottom: 2px solid var(--WHITE, #FFFDF3); 
+
 }
 
 .my-work {
   color: var(--WHITE, #FFFDF3);
   font-family: Lexend Giga;
-  font-size: 1.5vw;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
-  /* 24px */
+  width: 500px;
+  
 }
 
 

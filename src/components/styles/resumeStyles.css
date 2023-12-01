@@ -1,20 +1,112 @@
-.header-container {
+header {
     position: flex;
     display: block;
     width: 100%;
     padding: 30px 0px;
     gap: 10px;
     text-align: center;
-    border-top: 2px solid var(--WHITE, #FFFDF3);
-    border-bottom: 2px solid var(--WHITE, #FFFDF3);
+    border-top: 1px solid var(--WHITE, #FFFDF3);
+    border-bottom: 1px solid var(--WHITE, #FFFDF3);
 }
 
-.main-header {
+h1 {
     color: var(--white, #FFFDF3);
     font-family: MuseoModerno;
     font-size: 80px;
     font-style: normal;
     font-weight: 700;
     line-height: 125%;
-    
+}
+
+h2 {
+    color: var(--WHITE, #FFFDF3);
+
+    /* Desktop/H3 */
+    font-family: MuseoModerno;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    /* 50px */
+}
+
+.Main-Intro {
+    display: flex;
+    height: 429px;
+    border-bottom: 2px solid var(--WHITE, #FFFDF3);
+}
+
+.Intro-box {
+    width: 50%;
+    display: flex;
+    padding: 60px 10px 60px 120px;
+    align-items: center;
+    gap: 10px;
+    border-top: 2px solid var(--WHITE, #FFFDF3);
+    border-bottom: 2px solid var(--WHITE, #FFFDF3);
+}
+
+.Intro-box p {
+    color: var(--WHITE, #FFFDF3);
+    /* Desktop/Text */
+    font-family: Lexend Exa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 600px;
+}
+
+.space-ship {
+    width: 50%;
+}
+
+.work-experience {
+    display: flex;
+    height: 480px;
+}
+
+.work-experience p {
+    word-wrap: break-word;
+    color: var(--WHITE, #FFFDF3);
+    /* Desktop/Text */
+    font-family: Lexend Exa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 567px;
+    flex-shrink: 0;
+}
+
+.work-experience header {
+    display: flex;
+    height: 10%;
+    border-right: 1px solid var(--WHITE, #FFFDF3);
+    justify-content: center;
+    align-items: center;
+}
+
+.work-experience header h3 {
+    color: var(--WHITE, #FFFDF3);
+    font-family: Lexend Exa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.security-work {
+    width: 50%;
+    height: 100%;
+}
+
+.work-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+    border-right: 0.5px solid var(--WHITE, #FFFDF3);
+    border-bottom: 1px solid var(--WHITE, #FFFDF3);
 }
