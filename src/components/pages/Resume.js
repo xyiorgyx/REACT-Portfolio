@@ -31,7 +31,7 @@ export default function Resume() {
           </header>
           <div className='work-description'>
             <p>
-              Protections Officer | Charlotte, NC <br></br>MAY, 2017 – PRESENT <br></br><br></br>• Ensuring the safety and security of the community by actively patrolling assigned areas <br></br>• Enforcing local, state, and federal laws by conducting thorough investigations, apprehending suspects <br></br>• Skillfully handling challenging situations with tact and diplomacy, <br></br>• Accurately documenting incidents, investigations, and interactions in detailed reports
+              Protections Officer | Charlotte, NC <br></br>MAY, 2017 – PRESENT <br></br><br></br>• Establish a strong presence and maintain order withing the premises <br></br>•Search and authorize the entry of vehicles and personnel <br></br>• Investigate suspicious behaviors and persons on the property <br></br>• Provide assistance and quality service to site employees and visitors
             </p>
           </div>
         </div>
