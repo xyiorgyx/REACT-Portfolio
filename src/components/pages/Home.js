@@ -57,7 +57,7 @@ export default function Home() {
           <div className='earth-box'>
             <img className='earth'
               src={Earth} />
-            <p className='introduction' >I am a passionate web developer based in the beautiful city of Charlotte, North Carolina. With a strong background in coding and a keen eye for design, I specialize in creating stunning and functional websites that leave a lasting impression.</p>
+            <p className='introduction' >I am an enthusiastic web developer located in the vibrant city of Charlotte, North Carolina. Armed with a robust coding foundation and a discerning design sensibility, my expertise lies in crafting captivating and highly functional websites that not only captivate but also endure in the minds of users.</p>
           </div>
           <img className='coding-pic'
             src={CodePic}
@@ -71,7 +71,7 @@ export default function Home() {
         <div className='my-work-container'>
           <p className='my-work' >
 
-            As you explore my portfolio, you will find a collection of my latest projects, each one demonstrating my commitment to delivering high-quality websites that not only look great but also provide an exceptional user experience. From responsive designs to seamless navigation, I strive to create websites that captivate and engage visitors.
+          As you delve into my portfolio, you'll encounter a showcase of my most recent projects, each exemplifying my unwavering dedication to producing top-tier websites. These creations not only boast visually appealing aesthetics but also prioritize delivering an unparalleled user experience. Whether it's implementing responsive designs or ensuring seamless navigation, my goal is to craft websites that not only captivate but actively engage visitors.
             <br></br>
             <br></br>
             Collaboration is at the heart of my work. I believe in building strong relationships with my clients, understanding their vision, and translating it into a digital reality. I am always excited to take on new challenges and bring fresh ideas to the table, ensuring that each project is a true reflection of my client's brand and objectives.

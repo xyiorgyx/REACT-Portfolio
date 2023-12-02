@@ -44,9 +44,9 @@ export default function ProjectPage() {
               </div>
               {hoveredProject === project.id && (
                 <div className='project-info'>
-                  <h2>{project.title}</h2>
+                  <h2>{project.name}</h2>
                   <p>{project.description}</p>
-                  <p>Languages: {project.languages.join(', ')}</p>
+                 {/* { <p>Languages: {project.languages.join(', ')}</p>} */}
                 </div>
               )}
             </a>

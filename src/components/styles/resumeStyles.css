@@ -20,14 +20,11 @@ h1 {
 
 h2 {
     color: var(--WHITE, #FFFDF3);
-
-    /* Desktop/H3 */
     font-family: MuseoModerno;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 125%;
-    /* 50px */
 }
 
 .Main-Intro {
@@ -48,7 +45,6 @@ h2 {
 
 .Intro-box p {
     color: var(--WHITE, #FFFDF3);
-    /* Desktop/Text */
     font-family: Lexend Exa;
     font-size: 18px;
     font-style: normal;
@@ -67,9 +63,7 @@ h2 {
 }
 
 .work-experience p {
-    word-wrap: break-word;
     color: var(--WHITE, #FFFDF3);
-    /* Desktop/Text */
     font-family: Lexend Exa;
     font-size: 18px;
     font-style: normal;
