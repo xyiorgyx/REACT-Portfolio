@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/REACT-Portfolio/static/css/main.19ef431e.css",
-    "main.js": "/REACT-Portfolio/static/js/main.e878067b.js",
+    "main.js": "/REACT-Portfolio/static/js/main.87ac590b.js",
     "static/media/background.png": "/REACT-Portfolio/static/media/background.c35896f666532cad6c39.png",
     "static/media/me.png": "/REACT-Portfolio/static/media/me.f92a7ae3f08f7ec8d5c2.png",
     "static/media/interstellar_picture.png": "/REACT-Portfolio/static/media/interstellar_picture.766ed3bc2bcc4bb59bd7.png",
@@ -19,10 +19,10 @@
     "static/media/github-svgrepo-com (1) 1 (2).svg": "/REACT-Portfolio/static/media/github-svgrepo-com (1) 1 (2).8b1c20dd3e8774f984aa30518ab43d8f.svg",
     "index.html": "/REACT-Portfolio/index.html",
     "main.19ef431e.css.map": "/REACT-Portfolio/static/css/main.19ef431e.css.map",
-    "main.e878067b.js.map": "/REACT-Portfolio/static/js/main.e878067b.js.map"
+    "main.87ac590b.js.map": "/REACT-Portfolio/static/js/main.87ac590b.js.map"
   },
   "entrypoints": [
     "static/css/main.19ef431e.css",
-    "static/js/main.e878067b.js"
+    "static/js/main.87ac590b.js"
   ]
 }
