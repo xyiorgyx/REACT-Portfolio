@@ -65,9 +65,11 @@ export default function Home() {
         </section>
       }
       <section className='bottom-container'  >
+        <div className='fourth-demension-container'>
         <img
           className='fourth-demension'
           src={fourthDimension} />
+          </div>
         <div className='my-work-container'>
           <p className='my-work' >
 

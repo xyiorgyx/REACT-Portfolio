@@ -80,18 +80,25 @@
 
 .coding-pic {
   margin-top: auto;
+  height: 35%;
 }
 
 .earth-box {
-  display: flex;
+  display: flex; 
   align-items: center;
+  justify-content: center;
+  height: auto;
+  margin-left: 5%;
   max-width: 35%;
   border-right: 2px solid var(--white, #FFFDF3);
+  border-left: 1px solid var(--white, #FFFDF3);
 }
 
 .earth {
   object-fit: cover;
   padding: 5%;
+  max-width: 70%;
+  max-height: 70%;
 }
 
 .introduction-container {
@@ -102,24 +109,28 @@
 .introduction {
   position: relative;
   color: #FFFDF3;
-  font-size: 20px;
-  padding: 11% 20px 12% 20px;
+  font-size: 25px;
+  padding: 11% 20px 6% 20px;
 }
 
 .bottom-container {
   display: flex;
   flex-direction: row;
 }
-
+.fourth-demension-container {
+  display: flex;
+  width: 60%;
+  flex-shrink: 2 1;
+}
 .fourth-demension {
-  width: 600px;
-  height: 100%;
+ height: auto;
+
 }
 
 .my-work-container {
   display: flex;
   width: 100%;
-  padding: 50px 20px 50px 283px;
+  padding: 0% 0% 0% 15%;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -132,13 +143,24 @@
 .my-work {
   color: var(--WHITE, #FFFDF3);
   font-family: Lexend Giga;
-  font-size: 20px;
+  font-size: 1.2rem; /* Set font size in viewport width units */
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
-  width: 500px;
-  
+  max-width: 500px; /* Set a maximum width in pixels */
+  word-wrap: break-word; /* Ensure that words break and do not overflow the container */
 }
+
+
+
+
+/*----Tablet----*/
+@media only screen and (max-width: 1100px) {
+
+
+
+}
+
 
 
 /* --------- Mobile -------*/
