@@ -1,15 +1,16 @@
 
-.portfolio-container{
 
+.portfolio-container{
 min-width: 1000px;
 max-width: 2000px;
 }
 @media only screen and (max-width: 500px) {
   .portfolio-container{
-  min-width: none;
+  max-width: 500px;
+  min-width: auto;
   }
+  
 }
-
 .nav-nav-tabs {
   display: flex;
   flex-wrap: wrap;
@@ -52,4 +53,3 @@ li:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-

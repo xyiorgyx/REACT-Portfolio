@@ -16,9 +16,7 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: 125%;
-}
-
-h2 {
+}.section-header{
     color: var(--WHITE, #FFFDF3);
     font-family: MuseoModerno;
     font-size: 60px;
@@ -26,6 +24,8 @@ h2 {
     font-weight: 700;
     line-height: 125%;
 }
+
+
 
 .education h3 {
     height: 10%;
@@ -36,7 +36,7 @@ h2 {
     gap: 10px;
     color: var(--WHITE, #FFFDF3);
     font-family: Lexend Exa;
-    font-size: 1.2rem;
+    font-size: 60px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -158,7 +158,7 @@ width: 100%;
 
 .education {
     display: flex;
-
+    height: auto;
 }
 
 .education img {
@@ -181,11 +181,15 @@ border-bottom: 1px solid var(--WHITE, #FFFDF3);
     width: auto;
     justify-content: flex-start;
     align-items:center;
-    padding: 5% 8%;
+    padding: 8% 8%;
     color: var(--WHITE, #FFFDF3);
     font-family: Lexend Exa;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.education-subdiv h3 {
+    font-size:18px;
 }

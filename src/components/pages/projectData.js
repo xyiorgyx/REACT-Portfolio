@@ -12,7 +12,7 @@ const projects = [
     {
         id: 1,
         name: 'Employee Tracker',
-        description: 'Employee tracker allows a user to add data about their employees, including: Salary, the deparment they belong too, their manager and more. With this, employers can easily save, delete, add, and change this information for their company and keep a large data set of information about their employees to be easily accessible.',
+        description: 'Employee tracker allows a user to add data about their employees, including: Salary, their role, the deparment they belong too, their manager and more. With this, employers can easily save, delete, add, and change this information for their company and keep a large data set of information about their employees to be easily accessible.',
         githubLink: 'https://github.com/xyiorgyx/Employee-Tracker',
         liveLink: null,
         alt: 'employee tracker\'s vs code',
@@ -39,7 +39,7 @@ const projects = [
     {
         id: 4,
         name: 'Readme Generator',
-        description: 'The read me Generator is a simple application for developers rto quickly and easily create a read me file by simply adding the user data to the console when rpesented with an inquirer.',
+        description: 'The read me Generator is a simple application for developers to quickly and easily create a read-me file by simply adding the user data to the console when rpesented with an inquirer.',
         githubLink: 'https://github.com/xyiorgyx/ReadMe-Generator',
         liveLink: null,
         alt: 'Read me application photo',
@@ -48,7 +48,7 @@ const projects = [
     {
         id: 5,
         name: 'Coding test',
-        description: 'TThe purpose of this application is to test a users basic understanding of CSS, HTML, and JavaScript. After which all the questions are asked, the user enters their name and is shown their score.',
+        description: 'The purpose of this application is to test a users basic understanding of CSS, HTML, and JavaScript. After which all the questions are asked, the user enters their name and is shown their score.',
         githubLink: 'https://github.com/xyiorgyx/HTML-CSS-and-Javascript-Test',
         liveLink: 'https://xyiorgyx.github.io/HTML-CSS-and-Javascript-Test/',
         alt: 'Coding test practice Question',
@@ -57,7 +57,7 @@ const projects = [
     {
         id: 6,
         name: 'Text Editor',
-        description: 'This project is a simple text editing application in which the user can write text, have it saved onto their cache and retrieve it later. The Program is downloadable so that the user may use the application online or offline.',
+        description: 'This project is a simple text editing application in which the user can write text, have it saved onto their cache and retrieve it later. This Program is downloadable so that the user may use the application online or offline.',
         githubLink: 'https://github.com/xyiorgyx/Text-Editor-PWD',
         liveLink: 'https://george-text-editor.herokuapp.com/',
         alt: 'Text Editor phone application',

@@ -20,7 +20,7 @@ export default function Resume() {
 
       </section>
       <header >
-        <h2>
+        <h2 className='section-header'>
           Experience
         </h2>
       </header>
@@ -52,7 +52,7 @@ export default function Resume() {
       </section>
       <section className='skills'>
         <header >
-          <h2 >
+          <h2 className='section-header'>
             Skills
           </h2>
         </header>
@@ -62,7 +62,7 @@ export default function Resume() {
       </section>
       <section>
         <header >
-          <h2 >
+          <h2 className='section-header'>
             Education
           </h2>
         </header>

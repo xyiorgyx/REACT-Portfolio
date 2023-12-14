@@ -241,7 +241,7 @@
 
   .earth-box {
     position: relative;
-    min-width: 550px;
+    min-width: 499px;
     max-height: auto;
     bottom: -2%;
     right: 30%;
@@ -271,6 +271,7 @@
 
   .coding-pic {
     align-self: end;
+    height: 20%;
   }
 
   .bottom-container {
@@ -279,8 +280,12 @@
     min-height: 500px;
   }
 
+  .fourth-demension-container{
+    width: 101%;
+  }
   .fourth-demension {
-    max-height: 400px
+    max-height: 400px;
+    width:100%;
   }
 
   .my-work-container {
