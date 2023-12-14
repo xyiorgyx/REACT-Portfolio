@@ -8,6 +8,7 @@ max-width: 2000px;
   .portfolio-container{
   max-width: 500px;
   min-width: auto;
+  overflow: hidden;
   }
   
 }
