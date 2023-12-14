@@ -1,3 +1,15 @@
+
+.portfolio-container{
+
+min-width: 1000px;
+max-width: 2000px;
+}
+@media only screen and (max-width: 500px) {
+  .portfolio-container{
+  min-width: none;
+  }
+}
+
 .nav-nav-tabs {
   display: flex;
   flex-wrap: wrap;
@@ -14,9 +26,9 @@ li {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-decoration: none; /* Remove underline from normal state */
-  position: relative; /* Make li a positioned container */
-  transition: color 0.3s; /* Smooth color transition */
+  text-decoration: none; 
+  position: relative;
+  transition: color 0.3s; 
 }
 
 .nav-link.active {

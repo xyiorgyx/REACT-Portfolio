@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/REACT-Portfolio/static/css/main.19ef431e.css",
-    "main.js": "/REACT-Portfolio/static/js/main.87ac590b.js",
+    "main.css": "/REACT-Portfolio/static/css/main.7cdacfe3.css",
+    "main.js": "/REACT-Portfolio/static/js/main.be5b5f90.js",
     "static/media/background.png": "/REACT-Portfolio/static/media/background.c35896f666532cad6c39.png",
     "static/media/me.png": "/REACT-Portfolio/static/media/me.f92a7ae3f08f7ec8d5c2.png",
     "static/media/interstellar_picture.png": "/REACT-Portfolio/static/media/interstellar_picture.766ed3bc2bcc4bb59bd7.png",
     "static/media/Vector.png": "/REACT-Portfolio/static/media/Vector.d64a20661e756fc1a63b.png",
+    "static/media/stellar.png": "/REACT-Portfolio/static/media/stellar.22263762560194be448d.png",
     "static/media/photo_space.png": "/REACT-Portfolio/static/media/photo_space.75723118217fcff54ab2.png",
     "static/media/employee-Track.png": "/REACT-Portfolio/static/media/employee-Track.5f5f7266d8f1fc8d7f35.png",
     "static/media/coding_picture.png": "/REACT-Portfolio/static/media/coding_picture.25ff2dfe5b94b8100266.png",
@@ -13,16 +14,15 @@
     "static/media/Test.png": "/REACT-Portfolio/static/media/Test.f8c2bcc6bc958e725b68.png",
     "static/media/daily planner.png": "/REACT-Portfolio/static/media/daily planner.f1d104eadd6a74bd6846.png",
     "static/media/passGen.png": "/REACT-Portfolio/static/media/passGen.897446ab8bab7cb72b18.png",
-    "static/media/linkedin-svgrepo-com (1) 1.svg": "/REACT-Portfolio/static/media/linkedin-svgrepo-com (1) 1.ab24e9ced63986e92969a39cca77563e.svg",
     "static/media/Jate webpage.png": "/REACT-Portfolio/static/media/Jate webpage.e90b3336389bddbfb332.png",
     "static/media/codewars_button_icon_151901.png": "/REACT-Portfolio/static/media/codewars_button_icon_151901.063f65564573b4a1c37b.png",
     "static/media/github-svgrepo-com (1) 1 (2).svg": "/REACT-Portfolio/static/media/github-svgrepo-com (1) 1 (2).8b1c20dd3e8774f984aa30518ab43d8f.svg",
     "index.html": "/REACT-Portfolio/index.html",
-    "main.19ef431e.css.map": "/REACT-Portfolio/static/css/main.19ef431e.css.map",
-    "main.87ac590b.js.map": "/REACT-Portfolio/static/js/main.87ac590b.js.map"
+    "main.7cdacfe3.css.map": "/REACT-Portfolio/static/css/main.7cdacfe3.css.map",
+    "main.be5b5f90.js.map": "/REACT-Portfolio/static/js/main.be5b5f90.js.map"
   },
   "entrypoints": [
-    "static/css/main.19ef431e.css",
-    "static/js/main.87ac590b.js"
+    "static/css/main.7cdacfe3.css",
+    "static/js/main.be5b5f90.js"
   ]
 }

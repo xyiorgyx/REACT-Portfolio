@@ -1,7 +1,7 @@
 import React from 'react';
 import './components/styles/styleFooter.css';
 import githubImg from './components/images/github-svgrepo-com (1) 1 (2).svg';
-import LiImg from './components/images/linkedin-svgrepo-com (1) 1.svg'
+// import LiImg from './components/images/linkedin-svgrepo-com (1) 1.svg'
 import codeWPic from './components/images/codewars_button_icon_151901.png'
 
 export default function NavTabs({ currentPage, handlePageChange }) {
@@ -55,9 +55,9 @@ export default function NavTabs({ currentPage, handlePageChange }) {
                 <a href='https://github.com/xyiorgyx'>
                 <img alt= 'Github Icon' src={githubImg} />
                 </a>
-                <a href='https://github.com/xyiorgyx'>
+                {/* <a href='https://github.com/xyiorgyx'>
                 <img alt= 'Linked-in Icon' src={LiImg} />
-                </a>
+                </a> */}
                 <a className='codeWars' href='https://www.codewars.com/users/xyiorgyx'>
                 <img alt= 'Code wars icon' src={codeWPic} />
                 </a>

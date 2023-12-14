@@ -73,7 +73,7 @@ export default function Home() {
         <div className='my-work-container'>
           <p className='my-work' >
 
-          As you delve into my portfolio, you'll encounter a showcase of my most recent projects, each exemplifying my unwavering dedication to producing top-tier websites. These creations not only boast visually appealing aesthetics but also prioritize delivering an unparalleled user experience. Whether it's implementing responsive designs or ensuring seamless navigation, my goal is to craft websites that not only captivate but actively engage visitors.
+          As you dive into my portfolio, you'll notice a showcase of my most recent projects, each exemplifying my unmatched dedication to producing top-tier websites. These creations not only boast visually appealing aesthetics but also prioritize delivering an exceptional user experience. Whether it's implementing responsive designs or ensuring seamless navigation, my goal is to craft websites that not only captivate but actively engage visitors.
             <br></br>
             <br></br>
             Collaboration is at the heart of my work. I believe in building strong relationships with my clients, understanding their vision, and translating it into a digital reality. I am always excited to take on new challenges and bring fresh ideas to the table, ensuring that each project is a true reflection of my client's brand and objectives.

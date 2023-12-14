@@ -35,7 +35,7 @@ export default function ProjectPage() {
           <div
             key={project.id}
             className='project-div'
-            onMouseEnter={() => handleMouseOver(project.id)} // Use onMouseEnter for more reliable hover-in events
+            onMouseEnter={() => handleMouseOver(project.id)} // Mouseover event targets individual div
             onMouseLeave={handleMouseOut}
           >
             <a href={project.githubLink} className='project-link'>
