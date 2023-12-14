@@ -14,16 +14,18 @@ export default function Resume() {
           <p>
             Dedicated and accomplished Security Officer with a steadfast dedication to maintaining security and promoting public safety. Proficient in executing diverse security responsibilities, including patrolling assigned areas and conducting meticulous investigations. Proven proficiency in conflict resolution and deescalation strategies, actively fostering positive connections with the community. Boasts a history of outstanding service, acknowledged for unwavering professionalism, integrity, and effective leadership. Eager to apply my skills and background to contribute significantly to the ongoing mission of safeguarding and serving the community.
           </p>
-        </div>'
+        </div>
 
         <img className='space-ship' src={spaceShip} />
 
       </section>
+   
       <header >
         <h2 className='section-header'>
           Experience
-        </h2>
+        </h2>   
       </header>
+      
       <section className='work-experience'>
         <div className='security-work'>
           <header>
@@ -50,6 +52,7 @@ export default function Resume() {
           </div>
         </div>
       </section>
+       
       <section className='skills'>
         <header >
           <h2 className='section-header'>
@@ -77,15 +80,15 @@ export default function Resume() {
             </p>
             </div>
             <div className='education-subdiv'>
-            <h3>Bachelor in homeland security
+            <h3>Bachelor in Homeland Security
 </h3>
-            <p>UNC Charlotte – Charlotte, NC <br></br>
-              2022 - 2023
+            <p>VCU – Richmond, VA <br></br>
+              2011 - 2015
             </p>
             </div>
           </div>
         </div>
-      </section>
+      </section> 
     </main>
   );
 }

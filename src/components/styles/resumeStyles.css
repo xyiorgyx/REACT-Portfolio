@@ -16,7 +16,9 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: 125%;
-}.section-header{
+}
+
+.section-header {
     color: var(--WHITE, #FFFDF3);
     font-family: MuseoModerno;
     font-size: 60px;
@@ -24,8 +26,6 @@ h1 {
     font-weight: 700;
     line-height: 125%;
 }
-
-
 
 .education h3 {
     height: 10%;
@@ -41,7 +41,7 @@ h1 {
     font-weight: 700;
     line-height: normal;
     border-bottom: 1px solid var(--WHITE, #FFFDF3);
-width: 100%;
+    width: 100%;
 }
 
 .Main-Intro {
@@ -167,20 +167,21 @@ width: 100%;
 }
 
 .education-des {
-width: 100%;
+    width: 100%;
 }
 
-.education-subdiv{
-height: 50%;
-border-bottom: 1px solid var(--WHITE, #FFFDF3);
-    
+.education-subdiv {
+    height: 50%;
+    border-bottom: 1px solid var(--WHITE, #FFFDF3);
+
 }
+
 .education-des p {
     display: flex;
     height: 40%;
     width: auto;
     justify-content: flex-start;
-    align-items:center;
+    align-items: center;
     padding: 8% 8%;
     color: var(--WHITE, #FFFDF3);
     font-family: Lexend Exa;
@@ -191,5 +192,90 @@ border-bottom: 1px solid var(--WHITE, #FFFDF3);
 }
 
 .education-subdiv h3 {
-    font-size:18px;
+    font-size: 18px;
+}
+
+/*---------mobile------=--*/
+@media only screen and (max-width: 500px) {
+    .Main-Intro {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .space-ship {
+        width: 100%;
+
+        height: auto;
+    }
+
+    .Intro-box {
+        display: flex;
+        width: 100%;
+        padding: 20px 20px 50px 24px;
+        gap: 0px;
+        border-top: 0px solid var(--WHITE, #FFFDF3);
+        border-bottom: 2px solid var(--WHITE, #FFFDF3);
+    }
+
+    .Intro-box p {
+        flex: 1 0 0;
+        width: 320px;
+        color: var(--WHITE, #FFFDF3);
+        font-size: 14px;
+        line-height: 160%;
+    }
+
+    .section-header {
+        font-size: 30px;
+    }
+
+    .work-experience {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .work-experience div {
+        width: 100%;
+
+    }
+
+    .work-description {
+        border-right: 0px solid var(--WHITE, #FFFDF3);
+    }
+
+    .work-description p {
+        line-height: 26px;
+    }
+
+    .skills ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 24px 40px 40px;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--WHITE, #FFFDF3);
+    }
+    
+    .skills ul li {
+        line-height: 40%;
+    }
+
+    .education {
+        flex-direction: column;
+    }
+
+    .education img {
+        width: 100%;
+    }
+
+    .education-subdiv h3 {
+        text-align: center;
+        border-bottom: 0px;
+    }
+.education-subdiv p{
+    padding: 0px 10px 50px 24px; ;
+
+}
 }
