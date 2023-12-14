@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/REACT-Portfolio/static/css/main.08085d1b.css",
-    "main.js": "/REACT-Portfolio/static/js/main.3c7696d4.js",
+    "main.css": "/REACT-Portfolio/static/css/main.fa620d70.css",
+    "main.js": "/REACT-Portfolio/static/js/main.4b907f08.js",
     "static/media/background.png": "/REACT-Portfolio/static/media/background.c35896f666532cad6c39.png",
     "static/media/me.png": "/REACT-Portfolio/static/media/me.f92a7ae3f08f7ec8d5c2.png",
     "static/media/interstellar_picture.png": "/REACT-Portfolio/static/media/interstellar_picture.766ed3bc2bcc4bb59bd7.png",
@@ -18,11 +18,11 @@
     "static/media/codewars_button_icon_151901.png": "/REACT-Portfolio/static/media/codewars_button_icon_151901.063f65564573b4a1c37b.png",
     "static/media/github-svgrepo-com (1) 1 (2).svg": "/REACT-Portfolio/static/media/github-svgrepo-com (1) 1 (2).8b1c20dd3e8774f984aa30518ab43d8f.svg",
     "index.html": "/REACT-Portfolio/index.html",
-    "main.08085d1b.css.map": "/REACT-Portfolio/static/css/main.08085d1b.css.map",
-    "main.3c7696d4.js.map": "/REACT-Portfolio/static/js/main.3c7696d4.js.map"
+    "main.fa620d70.css.map": "/REACT-Portfolio/static/css/main.fa620d70.css.map",
+    "main.4b907f08.js.map": "/REACT-Portfolio/static/js/main.4b907f08.js.map"
   },
   "entrypoints": [
-    "static/css/main.08085d1b.css",
-    "static/js/main.3c7696d4.js"
+    "static/css/main.fa620d70.css",
+    "static/js/main.4b907f08.js"
   ]
 }
