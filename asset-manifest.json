@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/REACT-Portfolio/static/css/main.fa620d70.css",
-    "main.js": "/REACT-Portfolio/static/js/main.4b907f08.js",
+    "main.css": "/REACT-Portfolio/static/css/main.c87ee584.css",
+    "main.js": "/REACT-Portfolio/static/js/main.595bc8e1.js",
     "static/media/background.png": "/REACT-Portfolio/static/media/background.c35896f666532cad6c39.png",
     "static/media/me.png": "/REACT-Portfolio/static/media/me.f92a7ae3f08f7ec8d5c2.png",
     "static/media/interstellar_picture.png": "/REACT-Portfolio/static/media/interstellar_picture.766ed3bc2bcc4bb59bd7.png",
@@ -11,18 +11,24 @@
     "static/media/employee-Track.png": "/REACT-Portfolio/static/media/employee-Track.5f5f7266d8f1fc8d7f35.png",
     "static/media/coding_picture.png": "/REACT-Portfolio/static/media/coding_picture.25ff2dfe5b94b8100266.png",
     "static/media/readMeGen.png": "/REACT-Portfolio/static/media/readMeGen.3832177f34532c75fddd.png",
+    "static/media/mysql.png": "/REACT-Portfolio/static/media/mysql.2f2132d4838335ce808e.png",
     "static/media/Test.png": "/REACT-Portfolio/static/media/Test.f8c2bcc6bc958e725b68.png",
     "static/media/daily planner.png": "/REACT-Portfolio/static/media/daily planner.f1d104eadd6a74bd6846.png",
     "static/media/passGen.png": "/REACT-Portfolio/static/media/passGen.897446ab8bab7cb72b18.png",
+    "static/media/react.png": "/REACT-Portfolio/static/media/react.e71f4c5b0c4306d65355.png",
+    "static/media/free-mongodb-5-1175140.png": "/REACT-Portfolio/static/media/free-mongodb-5-1175140.25e861b553bfa699bbda.png",
     "static/media/Jate webpage.png": "/REACT-Portfolio/static/media/Jate webpage.e90b3336389bddbfb332.png",
     "static/media/codewars_button_icon_151901.png": "/REACT-Portfolio/static/media/codewars_button_icon_151901.063f65564573b4a1c37b.png",
+    "static/media/free-webpack-1-1174980.png": "/REACT-Portfolio/static/media/free-webpack-1-1174980.4db728af9fc838c8cd43.png",
+    "static/media/css.png": "/REACT-Portfolio/static/media/css.4a6549b8c2b4cda8bb88.png",
+    "static/media/Javascript.png": "/REACT-Portfolio/static/media/Javascript.266bd9fb2663dcc057b4.png",
     "static/media/github-svgrepo-com (1) 1 (2).svg": "/REACT-Portfolio/static/media/github-svgrepo-com (1) 1 (2).8b1c20dd3e8774f984aa30518ab43d8f.svg",
     "index.html": "/REACT-Portfolio/index.html",
-    "main.fa620d70.css.map": "/REACT-Portfolio/static/css/main.fa620d70.css.map",
-    "main.4b907f08.js.map": "/REACT-Portfolio/static/js/main.4b907f08.js.map"
+    "main.c87ee584.css.map": "/REACT-Portfolio/static/css/main.c87ee584.css.map",
+    "main.595bc8e1.js.map": "/REACT-Portfolio/static/js/main.595bc8e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa620d70.css",
-    "static/js/main.4b907f08.js"
+    "static/css/main.c87ee584.css",
+    "static/js/main.595bc8e1.js"
   ]
 }
