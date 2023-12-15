@@ -6,7 +6,7 @@ const projects = [
         githubLink: 'https://github.com/xyiorgyx/Password-Generator',
         liveLink: 'https://xyiorgyx.github.io/Password-Generator/',
         alt: 'Password generator application',
-        languages: ['HTML5', 'Javascript'],
+        languages: [ 1, 4, 0,],
 
     },
     {
@@ -16,7 +16,7 @@ const projects = [
         githubLink: 'https://github.com/xyiorgyx/Employee-Tracker',
         liveLink: null,
         alt: 'employee tracker\'s vs code',
-        languages:[],
+        languages:[0 ,2],
     },
     {
         id: 2,
@@ -25,7 +25,7 @@ const projects = [
         githubLink: 'https://github.com/xyiorgyx/Daily-Planner',
         liveLInk: '',
         alt: 'Blank Schedule Template photo',
-        languages: [],
+        languages: [1,4,0],
     },
     {
         id: 3,
@@ -34,16 +34,16 @@ const projects = [
         githubLink: 'https://github.com/xyiorgyx/Note-Taker',
         liveLink: 'https://floating-falls-23618.herokuapp.com/',
         alt: 'Note taker App photo',
-        languages: [],
+        languages: [1,4,0],
     },
     {
         id: 4,
-        name: 'Readme Generator',
+        name: 'Read-me Generator',
         description: 'The read me Generator is a simple application for developers to quickly and easily create a read-me file by simply adding the user data to the console when rpesented with an inquirer.',
         githubLink: 'https://github.com/xyiorgyx/ReadMe-Generator',
         liveLink: null,
         alt: 'Read me application photo',
-        languages: [],
+        languages: [0],
     },
     {
         id: 5,
@@ -52,7 +52,7 @@ const projects = [
         githubLink: 'https://github.com/xyiorgyx/HTML-CSS-and-Javascript-Test',
         liveLink: 'https://xyiorgyx.github.io/HTML-CSS-and-Javascript-Test/',
         alt: 'Coding test practice Question',
-        languages: [],
+        languages: [1,4,0],
     },
     {
         id: 6,
@@ -61,7 +61,7 @@ const projects = [
         githubLink: 'https://github.com/xyiorgyx/Text-Editor-PWD',
         liveLink: 'https://george-text-editor.herokuapp.com/',
         alt: 'Text Editor phone application',
-        languages: [],
+        languages: [1,4,0,6],
     },
     
 ]

@@ -113,3 +113,23 @@ font-weight: 400;
 line-height: normal;
 flex: 1 0 0;
 }
+
+.languages {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  flex-direction:row ;
+  align-items:start;
+  gap: 20px;
+}
+
+.languages li {
+  
+  width: 10%;
+  height:10%;
+}
+
+.languages li:hover:after {
+  transform: scaleX(0);
+}
